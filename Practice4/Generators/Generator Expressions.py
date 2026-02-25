@@ -1,4 +1,4 @@
-#List comprehension vs generator expression:
+# List comprehension vs generator expression:
 
 # List comprehension - creates a list
 
