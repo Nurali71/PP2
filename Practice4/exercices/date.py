@@ -20,7 +20,7 @@ print(today.strftime("%Y-%m-%d %H:%m:%S"))
 
 # Write a Python program to calculate two date difference in seconds.
 import datetime
-date_str1 = input("Первая дата: ")
+date_str1 = input()
 date_str2 = input()
 date1 = datetime.datetime.strptime(date_str1, "%Y-%m-%d %H:%M:%S")
 date2 = datetime.datetime.strptime(date_str2, "%Y-%m-%d %H:%M:%S")
