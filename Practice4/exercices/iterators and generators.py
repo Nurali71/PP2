@@ -33,5 +33,14 @@ a, b=map(int, input().split())
 gen=squares(a, b)
 for res in gen:
     print(res)
+# 5
+def mygen(n):
+    for i in range(n, -1, -1):
+        yield i
+n=int(input())  
+gen=mygen(n)
+for result in gen:
+    print(result)
+
 
 
