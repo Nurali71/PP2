@@ -15,10 +15,10 @@ import math
 side=int(input())
 lenght=float(input())
 area=(side*lenght**2)/(4*math.tan(math.pi/side))
-print(f"{area}")
+print(f"{area:.1f}")
 # Write a Python program to calculate the area of a parallelogram.
 import math
 a=float(input())
 h=float(input())
 area=a*h
-print(f"{area}")
+print(f"{area:.1f}")
