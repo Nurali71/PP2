@@ -18,4 +18,5 @@ with open("demofile.txt") as f:
 
 # To create a new file in Python, use the open() method, with one of the following parameters:
 # "x" - Create - will create a file, returns an error if the file exists
+
 f = open("myfile.txt", "x")

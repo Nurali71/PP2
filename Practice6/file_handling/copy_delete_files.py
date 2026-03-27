@@ -2,6 +2,7 @@
 import os
 os.remove("demofile.txt") 
 # To delete an entire folder, use the os.rmdir() method:
+
 import os
 os.rmdir("myfolder") 
 

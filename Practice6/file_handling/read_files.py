@@ -16,5 +16,6 @@ with open("demofile.txt") as f:
 # Read Lines
 # You can return one line by using the readline() method:
 # By calling readline() two times, you can read the two first lines:
+
 with open("demofile.txt") as f:
   print(f.readline()) 
